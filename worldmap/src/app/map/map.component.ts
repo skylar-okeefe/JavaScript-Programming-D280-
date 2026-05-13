@@ -24,7 +24,7 @@ export class MapComponent {
         region: '',
         incomeLevel: '',
         latitude: '',
-        Longitude: '',
+        longitude: '',
       };
 
       console.log(`mouse click captured for: ${countryName}`);
