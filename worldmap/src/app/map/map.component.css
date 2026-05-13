@@ -1,0 +1,22 @@
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mapcolumn {
+    flex: 2;
+}
+
+.datacolumn {
+    flex: 1;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+path:hover {
+    fill: #ffcc00 !important;
+    cursor: pointer;
+}
