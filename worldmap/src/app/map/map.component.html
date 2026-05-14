@@ -516,15 +516,15 @@
 
     <div class="datacolumn">
         <h2> Country Details</h2>
-        <div *ngif="selectedCountry; else noData">
-        <p>Name: {{ selectedCountry.name }}</p>
-        <p>Country ID: {{ selectedCountry.id }}</p>
-        <p>Capital: {{ selectedCountry.capital }}</p>
-        <p>Region: {{ selectedCountry.region }}</p>
-        <p>Income Level {{ selectedCountry.incomeLevel }}</p>
-        <p>Longitude: {{ selectedCountry.longitude }}</p>
-        <p>Latitude: {{ selectedCountry.latitude }}</p>
-
+        <div>
+        <p>Name: {{ selectedCountry?.name }}</p>
+        <p>Country ID: {{ selectedCountry?.id }}</p>
+        <p>Capital: {{ selectedCountry?.capital }}</p>
+        <p>Region: {{ selectedCountry?.region }}</p>
+        <p>Income Level {{ selectedCountry?.incomeLevel }}</p>
+        <p>Longitude: {{ selectedCountry?.longitude }}</p>
+        <p>Latitude: {{ selectedCountry?.latitude }}</p>
         </div>
+        
     </div>
 </div>
