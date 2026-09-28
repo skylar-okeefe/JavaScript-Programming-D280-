@@ -1,0 +1,56 @@
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapcolumn {
+    flex: 2;
+}
+
+.mapcolumn h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    border-bottom: 1px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.datacolumn {
+    flex: 0.6;
+    background-color: #ffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #036d03;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    height: fit-content;
+    align-self: center;
+    
+}
+
+.datacolumn h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    text-align: center;
+
+}
+
+.datacolumn p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px 0;
+    color: #444;
+    font-size: 0.95rem;
+    display: flex;
+   
+}
+
+
+path:hover {
+    fill: #199628 !important;
+    cursor: pointer;
+}
